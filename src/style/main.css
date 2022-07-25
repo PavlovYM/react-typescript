@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+.container{
+  width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.card-user{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.card-user strong{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
